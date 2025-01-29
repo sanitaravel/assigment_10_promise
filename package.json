@@ -5,7 +5,6 @@
   "license": "UNLICENSED",
   "author": "Marco Lilli",
   "type": "module",
-  "main": "cart.js",
   "scripts": {
     "test": "node --import=tsx --watch=*.ts --test *.test.ts",
     "start": "tsx main.ts"
