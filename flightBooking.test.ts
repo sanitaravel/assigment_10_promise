@@ -10,7 +10,6 @@ describe("bookFlight", () => {
       "Booking confirmed from New York to Los Angeles"
     );
   });
-
   it("throws an error if no flights are available", async () => {
     try {
       await bookFlight("New York", "Miami");
@@ -22,3 +21,5 @@ describe("bookFlight", () => {
     }
   });
 });
+
+  
